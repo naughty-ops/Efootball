@@ -371,11 +371,11 @@ const playersData = {
     img: 'player18.jpg', 
     position: 2, 
     points: 1100,
-    matchesPlayed: 5,
-    matchesWon: 3,
+    matchesPlayed: 6,
+    matchesWon: 4,
     matchesDrawn: 0,
     matchesLost: 2,
-    goalsScored: 9,
+    goalsScored: 10,
     goalsAgainst: 6,
     phone: '+919995661924',
     tournamentStats: {
@@ -483,7 +483,7 @@ const tournamentStandings = {
       groupName: "Group E",
       standings: [
         { position: 1, player: { id: "200019", name: "Sayooj", image: "player19.jpg" }, stats: { played: 6, won: 5, drawn: 1, lost: 0, goalsFor: 16, goalsAgainst: 7, goalDifference: +9, points: 16 } },
-        { position: 2, player: { id: "200018", name: "Shajeeh", image: "player18.jpg" }, stats: { played: 5, won: 3, drawn: 0, lost: 2, goalsFor: 9, goalsAgainst: 6, goalDifference: +3, points: 9 } },
+        { position: 2, player: { id: "200018", name: "Shajeeh", image: "player18.jpg" }, stats: { played: 6, won: 4, drawn: 0, lost: 2, goalsFor: 10, goalsAgainst: 6, goalDifference: +4, points: 12 } },
         { position: 3, player: { id: "200020", name: "Muhsin", image: "player20.jpg" }, stats: { played: 5, won: 1, drawn: 1, lost: 3, goalsFor: 9, goalsAgainst: 13, goalDifference: -4, points: 4 } },
         { position: 4, player: { id: "200017", name: "Shybin", image: "player17.jpg" }, stats: { played: 6, won: 1, drawn: 0, lost: 5, goalsFor: 9, goalsAgainst: 17, goalDifference: -8, points: 3 } }
       ]

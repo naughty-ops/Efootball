@@ -491,7 +491,7 @@ function generateFixtureCards() {
         round: "Round 6",
         matches: [
           { player1: "Adwaith TM", player2: "Babbill", player1Id: "200003", player2Id: "200001", time: "Aug 10, 18:00 IST", status: "No result" },
-          { player1: "Farhan", player2: "Fazil", player1Id: "200002", player2Id: "200004", time: "Aug 10, 18:30 IST", status: "No result" }
+          { player1: "Farhan", player2: "Fazil", player1Id: "200002", player2Id: "200004", time: "Aug 10, 18:30 IST", score: "6-0", winnerId: "200002", status: "Completed" }
         ]
       },
 
@@ -540,8 +540,8 @@ function generateFixtureCards() {
         group: "Group B",
         round: "Round 6",
         matches: [
-          { player1: "Mirsab", player2: "Midhlaj", player1Id: "200007", player2Id: "200005", time: "Aug 10, 19:00 IST", status: "No result" },
-          { player1: "Agraj", player2: "Athul", player1Id: "200006", player2Id: "200008", time: "Aug 10, 19:30 IST", status: "No result" }
+          { player1: "Mirsab", player2: "Midhlaj", player1Id: "200007", player2Id: "200005", time: "Aug 10, 19:00 IST", score: "2-0", winnerId: "200007", status: "Completed" },
+          { player1: "Agraj", player2: "Athul", player1Id: "200006", player2Id: "200008", time: "Aug 10, 19:30 IST", score: "3-0", winnerId: "200006", status: "Completed"  }
         ]
       },
 
@@ -583,14 +583,14 @@ function generateFixtureCards() {
         round: "Round 5",
         matches: [
           { player1: "Shibin", player2: "Sreeraj", player1Id: "200009", player2Id: "200012", time: "Aug 9, 20:00 IST", score: "4-0", winnerId: "200009", status: "Completed" },
-          { player1: "Vishnu", player2: "Razal", player1Id: "200010", player2Id: "200011", time: "Aug 9, 20:30 IST", status: "No result" }
+          { player1: "Vishnu", player2: "Razal", player1Id: "200010", player2Id: "200011", time: "Aug 9, 20:30 IST", score: "4-0", winnerId: "200011", status: "Completed"  }
         ]
       },
       {
         group: "Group C",
         round: "Round 6",
         matches: [
-          { player1: "Razal", player2: "Shibin", player1Id: "200011", player2Id: "200009", time: "Aug 10, 20:00 IST", status: "No result" },
+          { player1: "Razal", player2: "Shibin", player1Id: "200011", player2Id: "200009", time: "Aug 10, 20:00 IST", score: "1-3", winnerId: "200009", status: "Completed" },
           { player1: "Vishnu", player2: "Sreeraj", player1Id: "200010", player2Id: "200012", time: "Aug 10, 20:30 IST", status: "No result" }
         ]
       },
@@ -641,7 +641,7 @@ function generateFixtureCards() {
         round: "Round 6",
         matches: [
           { player1: "Riswan", player2: "Arjun", player1Id: "200015", player2Id: "200013", time: "Aug 10, 21:00 IST", status: "No result" },
-          { player1: "Anshad", player2: "Abhinav", player1Id: "200014", player2Id: "200016", time: "Aug 10, 21:30 IST", status: "No result" }
+          { player1: "Anshad", player2: "Abhinav", player1Id: "200014", player2Id: "200016", time: "Aug 10, 21:30 IST", score: "1-2", winnerId: "200014", status: "Completed"  }
         ]
       },
 
@@ -690,8 +690,8 @@ function generateFixtureCards() {
         group: "Group E",
         round: "Round 6",
         matches: [
-          { player1: "Sayooj", player2: "Shybin", player1Id: "200019", player2Id: "200017", time: "Aug 10, 22:00 IST", status: "No result" },
-          { player1: "Shajeeh", player2: "Muhsin", player1Id: "200018", player2Id: "200020", time: "Aug 10, 22:30 IST", status: "No result" }
+          { player1: "Sayooj", player2: "Shybin", player1Id: "200019", player2Id: "200017", time: "Aug 10, 22:00 IST", score: "3-2", winnerId: "200019", status: "Completed"  },
+          { player1: "Shajeeh", player2: "Muhsin", player1Id: "200018", player2Id: "200020", time: "Aug 10, 22:30 IST", score: "1-0", winnerId: "200018", status: "Completed" }
         ]
       }
     ]
