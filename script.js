@@ -888,7 +888,7 @@ const knockoutData = {
   quarters: [
     {
       id: 'qf1',
-      homePlayer: null, // Winner of PQ1
+      homePlayer: 200008, // Winner of PQ1
       awayPlayer: null, // Winner of PQ2
       homeScore: null,
       awayScore: null,
@@ -898,8 +898,8 @@ const knockoutData = {
     },
     {
       id: 'qf2',
-      homePlayer: null, // Winner of PQ3
-      awayPlayer: null, // Winner of PQ4
+      homePlayer: 200016, // Winner of PQ3
+      awayPlayer: 200014, // Winner of PQ4
       homeScore: null,
       awayScore: null,
       date: '2025-08-17',
@@ -908,7 +908,7 @@ const knockoutData = {
     },
     {
       id: 'qf3',
-      homePlayer: null, // Winner of PQ3
+      homePlayer: 200017, // Winner of PQ3
       awayPlayer: null, // Winner of PQ4
       homeScore: null,
       awayScore: null,
@@ -918,8 +918,8 @@ const knockoutData = {
     },
     {
       id: 'qf4',
-      homePlayer: null, // Winner of PQ5
-      awayPlayer: null, // Best 3rd place
+      homePlayer: 200001, // Winner of PQ5
+      awayPlayer: 200011, // Best 3rd place
       homeScore: null,
       awayScore: null,
       date: '2025-08-17',
