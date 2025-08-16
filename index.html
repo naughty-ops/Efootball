@@ -110,6 +110,7 @@
         <div class="nav-item" data-tab="today">Today</div>
         <div class="nav-item" data-tab="table">Table</div>
         <div class="nav-item" data-tab="fixture">Fixture</div>
+        <div class="nav-item" data-tab="knockout">Knockout</div>
       </div>
     </div>
   </div>
@@ -535,10 +536,29 @@
     </div>
   </div>
 
+
+
   <!-- Professional Scroll-to-Top Button -->
   <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
   </button>
+  <!-- Add the knockout content container after the fixture content -->
+  <div class="content-container knockout-content" style="display: none;">
+    <h2 class="section-title"><i class="fas fa-trophy"></i> Knockout Stage</h2>
+
+    <!-- Knockout Round Navigation -->
+    <div class="round-navigation">
+      <div class="round-btn active" data-round="pre-quarters">Pre QF</div>
+      <div class="round-btn" data-round="quarters">Quarterfinals</div>
+      <div class="round-btn" data-round="semis">Semifinals</div>
+      <div class="round-btn" data-round="final">Final</div>
+    </div>
+
+    <div class="knockout-bracket" id="knockoutBracket">
+      <!-- Will be populated by JavaScript -->
+    </div>
+  </div>
+
 
   <script src="data.js"></script>
   <script src="script.js"></script>
