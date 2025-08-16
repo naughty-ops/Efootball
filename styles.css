@@ -1438,24 +1438,24 @@ body {
   /* prevent distortion */
 }
 
-/* Add to styles.css */
+/* ================= KNOCKOUT STAGE RESPONSIVE STYLES ================= */
 .knockout-bracket {
   display: grid;
-  gap: 2rem;
-  margin-top: 1.5rem;
+  gap: 1.5rem;
+  margin-top: 1rem;
 }
 
 .knockout-round {
   background: white;
   border-radius: 15px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .knockout-round-title {
   color: var(--primary-bg);
   font-size: 1.2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #eee;
   display: flex;
@@ -1474,24 +1474,18 @@ body {
 
 .knockout-match {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   padding: 1rem;
   background: #f9f9f9;
   border-radius: 10px;
   transition: all 0.2s;
 }
 
-.knockout-match:hover {
-  transform: translateX(5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 .knockout-teams {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  flex: 1;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .knockout-team {
@@ -1503,20 +1497,21 @@ body {
 
 .knockout-team.home {
   justify-content: flex-end;
+  text-align: right;
 }
 
 .knockout-team img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .knockout-vs {
   font-weight: bold;
-  margin: 0 1rem;
   min-width: 40px;
   text-align: center;
+  padding: 0 0.5rem;
 }
 
 .knockout-score {
@@ -1526,23 +1521,113 @@ body {
 
 .knockout-info {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  font-size: 0.9rem;
+  justify-content: space-between;
+  font-size: 0.85rem;
   color: #666;
-  min-width: 100px;
+  padding-top: 0.5rem;
+  border-top: 1px solid #eee;
+  margin-top: 0.5rem;
 }
 
-/* For the final match */
+/* Final Match Styling */
 .knockout-final {
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0) 100%);
-  border: 1px solid rgba(255, 215, 0, 0.3);
+  background: linear-gradient(135deg, rgba(255,215,0,0.1) 0%, rgba(255,215,0,0) 100%);
+  border: 1px solid rgba(255,215,0,0.3);
 }
 
 .knockout-final .knockout-round-title {
-  color: #FFD700;
+  color: #d4af37;
 }
 
 .knockout-final .knockout-round-title i {
-  color: #FFD700;
+  color: #d4af37;
+}
+
+.winner-badge {
+  background: #d4af37;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+/* ================= RESPONSIVE ADJUSTMENTS ================= */
+@media (max-width: 768px) {
+  .knockout-team {
+    flex-direction: column;
+    gap: 0.25rem;
+    text-align: center !important;
+  }
+  
+  .knockout-team.home {
+    flex-direction: column-reverse;
+  }
+  
+  .knockout-team img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .knockout-vs {
+    min-width: 30px;
+    font-size: 0.9rem;
+  }
+  
+  .knockout-score {
+    font-size: 1rem;
+  }
+  
+  .knockout-round {
+    padding: 1rem;
+  }
+  
+  .knockout-round-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .knockout-match {
+    padding: 0.75rem;
+  }
+  
+  .knockout-team span {
+    font-size: 0.85rem;
+  }
+  
+  .knockout-info {
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.8rem;
+  }
+  
+  .knockout-round-title {
+    font-size: 1rem;
+  }
+  
+  .knockout-team img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .knockout-vs {
+    min-width: 25px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Special small screen adjustment */
+@media (max-width: 360px) {
+  .knockout-team span {
+    max-width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .knockout-vs {
+    padding: 0 0.25rem;
+  }
 }
