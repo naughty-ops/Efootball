@@ -884,14 +884,14 @@ const knockoutData = {
       date: '2025-08-16',
       time: '18:00 IST',
       winner: 200005,
-      completed: false
+      completed: true
     }
   ],
   quarters: [
     {
       id: 'qf1',
       homePlayer: 200008, // Winner of PQ1
-      awayPlayer: null, // Winner of PQ2
+      awayPlayer: 200019, // Winner of PQ2
       homeScore: null,
       awayScore: null,
       date: '2025-08-17',
@@ -911,7 +911,7 @@ const knockoutData = {
     {
       id: 'qf3',
       homePlayer: 200017, // Winner of PQ3
-      awayPlayer: null, // Winner of PQ4
+      awayPlayer: 200005, // Winner of PQ4
       homeScore: null,
       awayScore: null,
       date: '2025-08-17',
