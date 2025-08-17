@@ -867,21 +867,23 @@ const knockoutData = {
       id: 'pq1',
       homePlayer: 200018, // Group A 1st place
       awayPlayer: 200019, // Group E 2nd place
-      homeScore: null,
-      awayScore: null,
+      homeScore: 1,
+      awayScore: 2,
       date: '2025-08-16',
       time: '18:00 IST',
-      completed: false
+      winner: 200019,
+      completed: true
     },
     
     {
       id: 'pq2',
       homePlayer: 200002, // Group E 1st place
       awayPlayer: 200005, // Group C 2nd place
-      homeScore: null,
-      awayScore: null,
+      homeScore: 2,
+      awayScore: 6,
       date: '2025-08-16',
       time: '18:00 IST',
+      winner: 200005,
       completed: false
     }
   ],
