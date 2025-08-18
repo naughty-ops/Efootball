@@ -910,7 +910,7 @@ const knockoutData = {
     },
     {
       id: 'qf3',
-      homePlayer: 200017, // Winner of PQ3
+      homePlayer: 200009, // Winner of PQ3
       awayPlayer: 200005, // Winner of PQ4
       homeScore: null,
       awayScore: null,
