@@ -142,6 +142,16 @@
 
     <h2 class="section-title">Latest News</h2>
 
+     <div class="news-card">
+    <div class="news-header">
+      <h3 class="news-title">🔥 Quarterfinals Begin!</h3>
+      <span class="news-date">August 16, 2025</span>
+    </div>
+    <p class="news-excerpt">
+      The tournament reaches its climax with the quarterfinals today! Eight top players battle for a spot in the semifinals. Expect intense matches as the competition gets fiercer!
+    </p>
+     </div>
+
     <div class="news-card">
       <div class="news-header">
         <h3 class="news-title">🏆 Knockout Stage Begins!</h3>
@@ -163,7 +173,7 @@
       </p>
     </div>
 
-    <div class="news-card">
+    <div class="news-card hidden-news">
       <div class="news-header">
         <h3 class="news-title">⚽ Tournament Kickoff!</h3>
         <span class="news-date">July 20, 2025</span>
@@ -175,7 +185,7 @@
       </p>
     </div>
 
-    <div class="news-card">
+    <div class="news-card hidden-news">
       <div class="news-header">
         <h3 class="news-title">🏆 Prize Announcement</h3>
         <span class="news-date">July 18, 2025</span>
@@ -449,51 +459,94 @@
 
 
   <!-- Today Content -->
-  <div class="content-container today-content" style="display: none;">
-    <h2 class="section-title">Pre-Quarterfinal Matches</h2>
-
-    <!-- Pre-Quarterfinal 1 -->
-    <div class="match-card">
-      <div class="teams">
-        <div class="team">
-          <img src="player18.jpg" alt="Player" onclick="showPlayerDetails('200018')" class="clickable-player">
-          <span onclick="showPlayerDetails('200018')" class="clickable-player">Shajeeh</span>
-        </div>
-        <div class="vs">
-          VS
-          <div class="match-score">-</div>
-        </div>
-        <div class="team">
-          <img src="player19.jpg" alt="Player" onclick="showPlayerDetails('200019')" class="clickable-player">
-          <span onclick="showPlayerDetails('200019')" class="clickable-player">Sayooj</span>
-        </div>
+<div class="content-container today-content" style="display: none;">
+  <h2 class="section-title">Quarterfinal Matches</h2>
+  
+  <!-- Quarterfinal 1 -->
+  <div class="match-card">
+    <div class="teams">
+      <div class="team">
+        <img src="player8.jpg" alt="Player" onclick="showPlayerDetails('200008')" class="clickable-player">
+        <span onclick="showPlayerDetails('200008')" class="clickable-player">Athul</span>
       </div>
-      <div class="match-info">
-        <span class="league">Pre-Quarterfinal</span>
-        <span class="match-status status-upcoming">18:00 IST</span>
+      <div class="vs">
+        VS
+        <div class="match-score">-</div>
+      </div>
+      <div class="team">
+        <img src="player19.jpg" alt="Player" onclick="showPlayerDetails('200019')" class="clickable-player">
+        <span onclick="showPlayerDetails('200019')" class="clickable-player">Sayooj</span>
       </div>
     </div>
+    <div class="match-info">
+      <span class="league">Quarterfinal</span>
+      <span class="match-status status-upcoming">18:00 IST</span>
+    </div>
+  </div>
 
-    <!-- Pre-Quarterfinal 2 -->
-    <div class="match-card">
-      <div class="teams">
-        <div class="team">
-          <img src="player2.jpg" alt="Player" onclick="showPlayerDetails('200002')" class="clickable-player">
-          <span onclick="showPlayerDetails('200002')" class="clickable-player">Farhan</span>
-        </div>
-        <div class="vs">
-          VS
-          <div class="match-score">-</div>
-        </div>
-        <div class="team">
-          <img src="player5.jpg" alt="Player" onclick="showPlayerDetails('200005')" class="clickable-player">
-          <span onclick="showPlayerDetails('200005')" class="clickable-player">Midhlaj</span>
-        </div>
+  <!-- Quarterfinal 2 -->
+  <div class="match-card">
+    <div class="teams">
+      <div class="team">
+        <img src="player16.jpg" alt="Player" onclick="showPlayerDetails('200016')" class="clickable-player">
+        <span onclick="showPlayerDetails('200016')" class="clickable-player">Abhinav</span>
       </div>
-      <div class="match-info">
-        <span class="league">Pre-Quarterfinal</span>
-        <span class="match-status status-upcoming">19:00 IST</span>
+      <div class="vs">
+        VS
+        <div class="match-score">-</div>
       </div>
+      <div class="team">
+        <img src="player14.jpg" alt="Player" onclick="showPlayerDetails('200014')" class="clickable-player">
+        <span onclick="showPlayerDetails('200014')" class="clickable-player">Anshad</span>
+      </div>
+    </div>
+    <div class="match-info">
+      <span class="league">Quarterfinal</span>
+      <span class="match-status status-upcoming">19:00 IST</span>
+    </div>
+  </div>
+
+  <!-- Quarterfinal 3 -->
+  <div class="match-card">
+    <div class="teams">
+      <div class="team">
+        <img src="player9.jpg" alt="Player" onclick="showPlayerDetails('200009')" class="clickable-player">
+        <span onclick="showPlayerDetails('200009')" class="clickable-player">Shibin</span>
+      </div>
+      <div class="vs">
+        VS
+        <div class="match-score">-</div>
+      </div>
+      <div class="team">
+        <img src="player5.jpg" alt="Player" onclick="showPlayerDetails('200005')" class="clickable-player">
+        <span onclick="showPlayerDetails('200005')" class="clickable-player">Midhlaj</span>
+      </div>
+    </div>
+    <div class="match-info">
+      <span class="league">Quarterfinal</span>
+      <span class="match-status status-upcoming">20:00 IST</span>
+    </div>
+  </div>
+
+  <!-- Quarterfinal 4 -->
+  <div class="match-card">
+    <div class="teams">
+      <div class="team">
+        <img src="player1.jpg" alt="Player" onclick="showPlayerDetails('200001')" class="clickable-player">
+        <span onclick="showPlayerDetails('200001')" class="clickable-player">Babbill</span>
+      </div>
+      <div class="vs">
+        VS
+        <div class="match-score">-</div>
+      </div>
+      <div class="team">
+        <img src="player11.jpg" alt="Player" onclick="showPlayerDetails('200011')" class="clickable-player">
+        <span onclick="showPlayerDetails('200011')" class="clickable-player">Razal</span>
+      </div>
+    </div>
+    <div class="match-info">
+      <span class="league">Quarterfinal</span>
+      <span class="match-status status-upcoming">21:00 IST</span>
     </div>
   </div>
 
