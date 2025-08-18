@@ -892,11 +892,11 @@ const knockoutData = {
       id: 'qf1',
       homePlayer: 200008, // Winner of PQ1
       awayPlayer: 200019, // Winner of PQ2
-      homeScore: null,
-      awayScore: null,
+      homeScore: 1,
+      awayScore: 3,
       date: '2025-08-17',
       time: '18:00 IST',
-      completed: false
+      completed: true
     },
     {
       id: 'qf2',
