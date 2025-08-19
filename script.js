@@ -894,59 +894,63 @@ const knockoutData = {
       awayPlayer: 200019, // Winner of PQ2
       homeScore: 1,
       awayScore: 3,
-      date: '2025-08-17',
+      date: '2025-08-18',
       time: '18:00 IST',
+      winner:200019,
       completed: true
     },
     {
       id: 'qf2',
       homePlayer: 200016, // Winner of PQ3
       awayPlayer: 200014, // Winner of PQ4
-      homeScore: null,
-      awayScore: null,
-      date: '2025-08-17',
+      homeScore: 2,
+      awayScore: 3,
+      date: '2025-08-18',
       time: '19:00 IST',
-      completed: false
+      winner:200014,
+      completed: true
     },
     {
       id: 'qf3',
       homePlayer: 200009, // Winner of PQ3
       awayPlayer: 200005, // Winner of PQ4
-      homeScore: null,
-      awayScore: null,
-      date: '2025-08-17',
+      homeScore: 1,
+      awayScore: 5,
+      date: '2025-08-18',
       time: '19:00 IST',
-      completed: false
+      winner:200005,
+      completed: true
     },
     {
       id: 'qf4',
       homePlayer: 200001, // Winner of PQ5
       awayPlayer: 200011, // Best 3rd place
-      homeScore: null,
-      awayScore: null,
-      date: '2025-08-17',
+      homeScore: 1,
+      awayScore: 3,
+      date: '2025-08-18',
       time: '18:00 IST',
-      completed: false
+      winner:200011,
+      completed: true
     }
   ],
   semis: [
     {
       id: 'sf1',
-      homePlayer: null, // Winner of QF1
-      awayPlayer: null, // Winner of QF2
+      homePlayer: 200019, // Winner of QF1
+      awayPlayer: 200014, // Winner of QF2
       homeScore: null,
       awayScore: null,
-      date: '2025-08-18',
+      date: '2025-08-19',
       time: '18:00 IST',
       completed: false
     },
     {
       id: 'sf2',
-      homePlayer: null, // Winner of QF3
-      awayPlayer: null, // Next best performer
+      homePlayer: 200005, // Winner of QF3
+      awayPlayer: 200011, // Next best performer
       homeScore: null,
       awayScore: null,
-      date: '2025-08-18',
+      date: '2025-08-19',
       time: '19:00 IST',
       completed: false
     }
@@ -957,7 +961,7 @@ const knockoutData = {
     awayPlayer: null, // Winner of SF2
     homeScore: null,
     awayScore: null,
-    date: '2025-08-19',
+    date: '2025-08-20',
     time: '20:00 IST',
     completed: false
   }
