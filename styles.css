@@ -10,6 +10,54 @@
   --completed-match-opacity: 0.7;
 }
 
+
+.final-match {
+    border: 3px solid #ffd700;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    position: relative;
+}
+
+.final-match .teams {
+    margin: 25px 0;
+}
+
+.final-trophy {
+    text-align: center;
+    padding: 10px;
+    background: rgba(255, 215, 0, 0.1);
+    border-top: 1px solid rgba(255, 215, 0, 0.3);
+    color: #ffd700;
+    font-weight: 600;
+}
+
+.final-trophy i {
+    margin-right: 8px;
+    color: #ffd700;
+}
+
+.winner {
+    color: #4CAF50;
+    font-weight: 600;
+}
+
+.loser {
+    color: #f44336;
+    font-weight: 500;
+}
+
+.results-grid {
+    display: grid;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.result-item {
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    text-align: center;
+  }
+
 /* Settings Button */
 .settings-btn-container {
   position: fixed;
