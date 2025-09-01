@@ -534,29 +534,44 @@
   <h2 class="section-title">Grand Final Match</h2>
   
   <!-- Grand Final -->
-  <div class="match-card final-match">
-    <div class="teams">
-      <div class="team">
-        <img src="player19.jpg" alt="Player" onclick="showPlayerDetails('200019')" class="clickable-player">
-        <span onclick="showPlayerDetails('200019')" class="clickable-player">Sayooj</span>
-      </div>
-      <div class="vs">
-        VS
-        <div class="match-score">-</div>
-      </div>
-      <div class="team">
-        <img src="player5.jpg" alt="Player" onclick="showPlayerDetails('200005')" class="clickable-player">
-        <span onclick="showPlayerDetails('200005')" class="clickable-player">Midhlaj</span>
+  <div class="match-card final-match completed">
+  <div class="teams">
+    <!-- Home (Winner) -->
+    <div class="team">
+      <img src="player19.jpg" alt="Player" onclick="showPlayerDetails('200019')" class="clickable-player">
+      <span onclick="showPlayerDetails('200019')" class="clickable-player winner">Sayooj</span>
+      <div class="match-score win">
+        1 <span class="penalty">(3)</span>
       </div>
     </div>
-    <div class="match-info">
-      <span class="league">Grand Final</span>
-      <span class="match-status status-upcoming">20:00 IST</span>
+
+    <!-- VS Section -->
+    <div class="vs">
+      VS
     </div>
-    <div class="final-trophy">
-      <i class="fas fa-trophy"></i> Championship Match
+
+    <!-- Away -->
+    <div class="team">
+      <img src="player5.jpg" alt="Player" onclick="showPlayerDetails('200005')" class="clickable-player">
+      <span onclick="showPlayerDetails('200005')" class="clickable-player loser">Midhlaj</span>
+      <div class="match-score loss">
+        1 <span class="penalty">(2)</span>
+      </div>
     </div>
   </div>
+
+  <!-- Match Info -->
+  <div class="match-info">
+    <span class="league">Grand Final</span>
+    <span class="match-status status-completed">Completed</span>
+  </div>
+
+  <!-- Trophy -->
+  <div class="final-trophy">
+    <i class="fas fa-trophy"></i> Championship Match
+  </div>
+</div>
+
 </div>
   
 

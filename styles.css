@@ -458,6 +458,17 @@ body {
   position: relative;
   overflow: hidden;
 }
+.match-card .winner {
+  color: #00ff99;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(0, 255, 150, 0.8);
+  animation: glowPulse 1.5s infinite alternate;
+}
+
+@keyframes glowPulse {
+  from { text-shadow: 0 0 5px rgba(0, 255, 150, 0.6); }
+  to   { text-shadow: 0 0 15px rgba(0, 255, 150, 1); }
+}
 
 .match-card.completed {
   opacity: var(--completed-match-opacity);

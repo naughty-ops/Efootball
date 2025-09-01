@@ -958,15 +958,17 @@ const knockoutData = {
     }
   ],
   final: {
-    id: 'final',
-    homePlayer: 200019, // Winner of SF1
-    awayPlayer: 200005, // Winner of SF2
-    homeScore: null,
-    awayScore: null,
-    date: '2025-08-20',
-    time: '20:00 IST',
-    completed: false
-  }
+  id: 'final',
+  homePlayer: 200019, // Winner of SF1
+  awayPlayer: 200005, // Winner of SF2
+  homeScore: "1 (3)", // 1 in normal time, 3 in penalties
+  awayScore: "  1 (2)", // 1 in normal time, 2 in penalties
+  date: '2025-08-20',
+  time: '20:00 IST',
+  completed: true
+}
+
+
 };
 
 // ====================== KNOCKOUT RENDERING FUNCTIONS ====================== //
